@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-1.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="app.js" defer></script>
+    <title>Weather</title>
+</head>
+<body>
+    
+    <div class="continar">
+        <div class="links">
+            <div class="left"><i class="small fas fa-umbrella"></i></div>
+            <div class="icon-link">
+                <a id="w" href="#">Weather<i class=" fas fa-cloud-rain"></i></a>
+              </div>
+              <div class="icon-link">
+                <a href="link2">Cities<i class="fas fa-list"></i></a>
+              </div>
+              <div class="icon-link">
+                <a href="link3">Map<i class="fas fa-map"></i></a>
+              </div>
+              <div class="icon-link">
+                <a href="link4">Settings<i class="fas fa-cogs"></i></a>
+              </div>
+        </div>
+        <figure id="img"><img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bnJpc2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" id="img" class="img" alt="">
+        <figcaption>Hi World!</figcaption></figure>
+  <main id="mainDisplay">
+    <div id="main" class="main"> 
+        <form action="">
+            <input type="search" value="search for Cities"   aria-atomic="off" aria-autocomplete="off" id="search" class="search">
+            <button type="submit" class="btn">Search</button>
+        </form>
+        
+      
+<!-- <img src="./sun_th.jpg" class="sun" width="200px" height="200px" style="background-color: #0b131e;" alt=""> -->
+    </div>
+    <div class="time-tempu" id="time-tempu">
+        <h5>Today'5 Forecast</h5>
+        <div class="time1"><h6>9:00Am</h6><i class="fas fa-cloud"></i><h4>25&deg</h4></div>
+        <div class="time2"><h6>12:00Am</h6><i class="fas fa-sun"></i><h4>25&deg</h4></div>
+        <div class="time3"><h6>3:00PM</h6><i class="fas fa-sun"></i><h4>22&deg</h4></div>
+        <div class="time4"><h6>6:00PM</h6><i class="fas fa-cloud"></i><h4>28&deg</h4></div>
+        <div class="time5"><h6>9:00PM</h6><i class="fas fa-cloud"></i> <h4>23&deg</h4></div>
+    </div>
+    <div class="more-data">
+       
+        <h6>Air Condition</h6>
+        <div class="data1"><i class="fas fa-thermometer-half"></i>
+            Real feel
+            <h4 id="realFeel">30 &deg</h4>
+        </div>
+        <div class="data2">
+            <i class="fas fa-wind"></i>
+            Wind
+            <h4 id="wind">0.2km/h</h4>
+        </div>
+        <div class="data3">
+            <i class="fas fa-cloud-rain"></i>
+            Chance of Rain
+            <h4 id="chance-rain">0%</h4>
+        </div>
+        
+        </div>
+    </main>
+
+</div>
+</body>
+</html>
