@@ -8,6 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
 height: 100vh;
+max-height: 100%;
     justify-content: center;
     align-items: center;
     
@@ -41,7 +42,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     background-color: #202b3b;
-    flex-direction: column;
+    flex-direction: column  ;
     /* padding: 1rem; */
     text-align: center;
     /* height: 35rem; */
@@ -52,7 +53,7 @@ a{
 
     margin-left: 2%;
     height: 35rem;
-    width: 50%;
+    width: 100%;
     color: #f0f1f1;
     font-size: 0.7em;
     opacity: 0.5;
@@ -105,16 +106,7 @@ input[type="search"]::-webkit-search-cancel-button {
     outline: none;
     border: none;
   }
-.sun{
-    border-radius: 10px;
-    position: relative;
-    left: 99%;
-    opacity: 0.1;
-    bottom: 30%;
-}
-.sun:hover ,.sun:active,.sun :focus{
-    opacity: 0.6;
-}
+
 body {
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer and Edge */
@@ -304,22 +296,4 @@ margin-bottom: 4%;
 
 main{
   display: none;
-}
-.img{
-  width:fit-content;
-  object-fit: cover;
-  /* max-width: 100%; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-
-  box-shadow: 0 2px 5px rgba(0, 0,0, 0.3);
-}
-figcaption{
-  text-align: center;
-  font-size: 2rem;
-  color:#169bda;
-  opacity: 0.1;
-  font-family:'Courier New', Courier, monospace;
 }
